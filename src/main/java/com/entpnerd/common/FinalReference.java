@@ -2,7 +2,7 @@ package com.entpnerd.common;
 
 import java.util.concurrent.atomic.AtomicReference;
 
-public class FinalReference<T> {
+public final class FinalReference<T> {
   private final AtomicReference<T> reference = new AtomicReference<T>();
 
   public FinalReference() {
